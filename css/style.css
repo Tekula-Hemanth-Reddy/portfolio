@@ -860,3 +860,30 @@
       .footer-bottom-inner p {
         font-size: 14px;
         margin-bottom: 20px; } }
+
+.collagePhoto{
+  height: 300px;
+    width: 300px;
+  margin-left: 20%;
+}
+@media (max-width: 992px) {
+  .collagePhoto{
+    height: 300px;
+    width: 300px;
+    margin-left: 28%;
+  }
+}
+@media (max-width: 700px) {
+  .collagePhoto{
+    height: 300px;
+    width: 300px;
+    margin-left: 5%;
+  }
+}
+@media (max-width: 330px) {
+  .collagePhoto{
+    height: 200px;
+    width: 200px;
+    margin-left: 15%;
+  }
+}
