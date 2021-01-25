@@ -40,7 +40,8 @@
       font-size: 38px; } }
   @media (max-width: 668px) {
     .universal-h2 {
-      font-size: 30px; } }
+      font-size: 30px; }
+     }
 
 .universal-h2-bckg {
   background-image: url("../images/double-line.svg");
@@ -103,21 +104,21 @@
 .bar1, .bar2, .bar3 {
   width: 30px;
   height: 3px;
-  background-color: #c18f59;
+  background-color: #61dafb;
   margin: 6px 0;
   transition: 0.4s; }
 
 .change .bar1 {
   transform: rotate(-45deg) translate(-6px, 6px);
-  background-color: #c18f59; }
+  background-color: #61dafb; }
 
 .change .bar2 {
   opacity: 0;
-  background-color: #c18f59; }
-
+  background-color:#61dafb; }
+/*#c18f59*/
 .change .bar3 {
   transform: rotate(45deg) translate(-6px, -7px);
-  background-color: #c18f59; }
+  background-color:#61dafb; }
 
 .stop-scroll {
   overflow: hidden; }

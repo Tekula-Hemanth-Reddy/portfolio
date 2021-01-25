@@ -19,16 +19,19 @@
 <body>
 
 	<!-- Navigation -->
-	<nav class="site-navigation">
+	<nav class="site-navigation" style="position: fixed;">
 		<div class="site-navigation-inner site-container">
 			<img src="./images/site-logo.png" alt="site logo">
 			<div class="main-navigation">
 				<ul class="main-navigation__ul">
-					<li><a href="#">Homepage</a></li>
-					<li><a href="#">Page 1</a></li>
-					<li><a href="#">Page 2</a></li>
-					<li><a href="#">Page 3</a></li>
-					<li><a href="#">Page 4</a></li>
+					<li><a href="#home_page">Homepage</a></li>
+					<li><a href="#about_Me">About Me</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#my_Projects">My Projects</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#social_Media">Social media</a></li>
+					<li><a href="#contact_Me">Contact</a></li>
 				</ul>
 			</div>
 			<div id="myBtn" class="burger-container" onclick="myFunction(this)">
@@ -47,7 +50,7 @@
 	<!-- Navigation end -->
 
 	<!-- Top banner -->
-	<section class="fh5co-top-banner">
+	<section class="fh5co-top-banner" id="home_page">
 		<div class="top-banner__inner site-container">
 			<div class="top-banner__image">
 				<img src="./images/top-banner-author.jpg" alt="author image">
@@ -69,7 +72,7 @@
 	<!-- Top banner end -->
 
 	<!-- About me -->
-	<section class="fh5co-about-me">
+	<section class="fh5co-about-me" id="about_Me">
 		<div class="about-me-inner site-container">
 			<article class="portfolio-wrapper">
 				<div class="portfolio__img">
@@ -104,8 +107,8 @@
 	</section>
 	<!-- About me end -->
 
-	<!-- Books and CD -->
-	<section class="fh5co-books">
+	<!-- Skills -->
+	<section class="fh5co-books" id="skills">
 		<div class="site-container">
 			<h2 class="universal-h2 universal-h2-bckg">Skills</h2>
 			<div class="books">
@@ -173,10 +176,10 @@
 			</div>
 		</div>
 	</section>
-	<!-- Books and CD end -->
+	<!-- Skills end -->
 
-	<!-- Counter -->
-	<h2 class="universal-h2 universal-h2-bckg" style="margin-bottom: 10px;">Education</h2>
+	<!-- Education -->
+	<h2 class="universal-h2 universal-h2-bckg" id="education" style="margin-bottom: 10px;">Education</h2>
 	<div class="fh5co-counter counters">
 		<div class="counter-inner site-container">
 			<div class="single-count">
@@ -206,10 +209,10 @@
 			</div> -->
 		</div>
 	</div>
-	<!-- Counter -->
+	<!-- Education end -->
 
-	<!-- Blog -->
-	<section class="fh5co-blog">
+	<!-- Projects -->
+	<section class="fh5co-blog" id="my_Projects">
 		<div class="site-container">
 			<h2 class="universal-h2 universal-h2-bckg">My Projects</h2>
 			<div class="blog-slider blog-inner">
@@ -256,10 +259,10 @@
 			</div>
 		</div>
 	</section>
-	<!-- Blog end -->
+	<!-- Projects end -->
 
-	<!-- Quotes -->
-	<section class="fh5co-quotes">
+	<!-- Experience -->
+	<section class="fh5co-quotes" id="experience">
 		<div class="site-container">
 			<div class="about-me-slider">
 				<div>
@@ -287,10 +290,10 @@
 			</div>
 		</div>
 	</section>
-	<!-- Quotes end -->
+	<!-- Experience end -->
 
 	<!-- Social -->
-	<section class="fh5co-social">
+	<section class="fh5co-social" id="social_Media">
 		<div class="site-container">
 			<div class="social">
 				<h5>Follow me!!</h5>
@@ -308,7 +311,7 @@
 	<!-- Social -->
 
 	<!-- Footer -->
-	<footer class="site-footer">
+	<footer class="site-footer" id="contact_Me">
 		<div class="site-container">
 			<div class="footer-inner">
 				<div class="footer-info">
